@@ -129,6 +129,12 @@ body {
       letter-spacing: 0.6px;
     }
 
+    &_flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     &_text {
       display: flex;
       align-items: center;
@@ -151,13 +157,13 @@ body {
     &_plus {
       cursor: pointer;
       position: relative;
-      right: 30px;
+      right: 15px;
 
       &:before,
       &:after {
         content: "";
         position: absolute;
-        width: 24px;
+        width: 18px;
         height: 2px;
         background: #ddd;
       }

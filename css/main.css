@@ -176,6 +176,11 @@ body {
   font-size: 15px;
   letter-spacing: 0.6px;
 }
+.page-1__get_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .page-1__get_text {
   display: flex;
   align-items: center;
@@ -195,12 +200,12 @@ body {
 .page-1__get_plus {
   cursor: pointer;
   position: relative;
-  right: 30px;
+  right: 15px;
 }
 .page-1__get_plus:before, .page-1__get_plus:after {
   content: "";
   position: absolute;
-  width: 24px;
+  width: 18px;
   height: 2px;
   background: #ddd;
 }
